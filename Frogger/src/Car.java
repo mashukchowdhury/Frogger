@@ -19,7 +19,7 @@ public class Car extends Sprite {
 	}
 	
 	public Car() {
-		super(124,200,"car.png");
+		super(124,200,"Car.png");
 		this.visible = true;
 		this.moving = false;
 	}
