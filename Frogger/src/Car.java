@@ -19,9 +19,9 @@ public class Car extends Sprite {
 	}
 	
 	public Car() {
-		super(124,200,"Car.png");
+		super(124, 200, "Truck_left.png");
 		this.visible = true;
-		this.moving = false;
+		this.moving = false; // so that it doesn't start moving automatically
 	}
 	
 	public void hide() {
@@ -30,6 +30,11 @@ public class Car extends Sprite {
 	
 	public void show() {
 		this.visible = true;
+	}
+	
+	public void Display()
+	{
+		System.out.println("X,Y/vis:" + this.x + "," + this.y + "/" + this.visible);
 	}
 }
 
